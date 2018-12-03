@@ -57,9 +57,7 @@
     "test": "npm run unit-tests && npm run ast-alignment-tests",
     "unit-tests": "jest",
     "ast-alignment-tests": "jest --config=./tests/ast-alignment/jest.config.js",
-    "precommit": "npm test && lint-staged",
     "cz": "git-cz",
-    "commitmsg": "commitlint -E GIT_PARAMS",
     "check-format": "prettier --list-different \"./**/*.{ts,js,json,md}\"",
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once"
